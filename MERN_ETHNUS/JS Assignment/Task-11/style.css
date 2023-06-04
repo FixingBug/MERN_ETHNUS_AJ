@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.error {
+  color: red;
+  display: none;
+}
+
+#submit {
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  margin: auto;
+  border-radius: 50px;
+  width: 20%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  align-items: center;
+  background: linear-gradient(#faf9cb, #dc87b1);
+  height: 100vh;
+}
+
+h2{
+  color: blue;
+}

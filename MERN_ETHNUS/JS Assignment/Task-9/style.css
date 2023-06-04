@@ -1,0 +1,30 @@
+.error {
+  color: #ffc900;
+  display: none;
+}
+body {
+    color: white;
+  background-color: #a22a57;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form {
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  width: 40%;
+  background-color: #752041;
+  margin-top: 100px;
+  display: inline-block;
+}
+
+#submit{
+    width: 50%;
+    font-weight: bold;
+    margin: auto;
+}

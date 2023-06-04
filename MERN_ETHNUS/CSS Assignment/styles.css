@@ -1,0 +1,35 @@
+#heading{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 25px;
+    font-family: 'Playfair', serif;
+}
+
+table{
+    width: 80vw;
+    margin: auto;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(255, 107, 81);
+    text-align: left;
+}
+tr.c-row{
+    background-color: rgb(216, 216, 216);
+    border-color:rgb(216, 216, 216); 
+}
+th, td{
+    padding: 10px;
+}
+
+footer p{
+    font-family: 'Playfair', serif;
+    text-align: center;
+}
+
+footer img{
+    width: 35px;
+    padding-right: 7px;
+}

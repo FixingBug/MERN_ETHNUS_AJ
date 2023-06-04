@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS-Task-3</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="1" class="input_fields">
+        <label class="error" id="error_1">This field is required</label>
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="2" class="input_fields">
+        <label class="error" id="error_2">A valid email address is required</label>
+        <br>
+        <br>
+        <label for="website">Website: </label>
+        <input type="text" name="website" id="3" class="input_fields">
+        <label class="error" id="error_3">A valid url is required</label>
+        <br>
+        <br>
+        <label for="message">Message: </label>
+        <textarea name="message" id="4" cols="30" rows="5" style="vertical-align: top;" class="input_fields"></textarea>
+        <label class="error" id = "error_4">This field is required</label>
+        <br>
+        <br>
+        <button type="submit" id = "submit" onclick=handle(event)>Submit</button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>

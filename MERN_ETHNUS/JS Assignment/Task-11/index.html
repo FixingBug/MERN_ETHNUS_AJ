@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS-Task-9</title>
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+    <form action="" id="form">
+        <label for="fname">First Name: </label>
+        <input type="text" name="fname" id="1" class="input_fields">
+        <label class="error" id="error_1">This field is required</label>
+        <br>
+        <br>
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" id="2" class="input_fields">
+        <label class="error" id="error_2">POOR</label>
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="3" class="input_fields">
+        <label class="error" id="error_3">A valid email address is required</label>
+        <br>
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="4" class="input_fields">
+        <label class="error" id="error_4">POOR</label>
+        <br>
+        <br>
+        <label for="repassword">Re-enter Password: </label>
+        <input type="password" name="repassword" id="5" class="input_fields">
+        <label class="error" id="error_5">POOR or MISMATCH</label>
+        <br>
+        <br>
+        <label for="">Gender: </label>
+        <input type="radio" id="male" name="gender" value="Male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">other</label>
+        <br>
+        <br>
+        <label for="age">Age: </label>
+        <input type="text" name="age" id="6" class="input_fields">
+        <label class="error" id="error_6">POOR</label>
+        <br>
+        <br>
+        <label for="phone">Phone number: </label>
+        <input type="text" name="phone" id="7" class="input_fields">
+        <label class="error" id="error_7">POOR</label>
+        <br>
+        <br>
+        <label for="address">Address: </label>
+        <textarea name="address" id="8" cols="30" rows="5" style="vertical-align: top;" class="input_fields"></textarea>
+        <label class="error" id="error_8">This field is required</label>
+        <br>
+        <br>
+        <label for="state">State: </label>
+        <input type="text" name="state" id="9" class="input_fields">
+        <label class="error" id="error_9">POOR</label>
+        <br>
+        <br>
+        <label for="country">Country: </label>
+        <select name="country" id="country">
+            <option value="India">Select Country (Default India)</option>
+            <option value="India">India</option>
+            <option value="US">US</option>
+            <option value="UK">UK</option>
+            <option value="Russia">Russia</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Languages Known: </label>
+        <input type="checkbox" id="english" name="english" value="English" checked>
+        <label for="english"> English</label>
+        <input type="checkbox" id="kannada" name="kannada" value="Kannada">
+        <label for="kannada"> Kannada</label>
+        <input type="checkbox" id="hindi" name="hindi" value="Hindi">
+        <label for="hindi"> Hindi</label>
+        <input type="checkbox" id="telgu" name="telugu" value="Telugu">
+        <label for="telugu"> Telugu</label>
+        <br>
+        <br>
+        <input type="checkbox" id="concent" name="concent" value="Concent">
+        <label for="telugu"> Hereby I declare all the given details are true </label>
+        <label for="" id = "concent_error" class="error">**Please select this field**</label>
+        <br>
+        <br>
+        <p>Login to <a href="https://ethnus.com/">Ethnus</a> Website</p>
+        <br>
+        <br>
+        <button type="submit" id="submit" onclick=handle(event)>Register</button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>

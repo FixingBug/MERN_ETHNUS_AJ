@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS-Task-5</title>
+</head>
+
+<body>
+    <span id="root">
+        <section class="section-all">
+            <!-- 1-Role Main -->
+            <main class="main" role="main">
+                <div class="wrapper">
+                    <article class="article">
+                        <div class="content">
+                            <div class="login-box">
+                                <div class="header">
+                                    <img class="logo"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"
+                                        alt="Instagram">
+                                </div><!-- Header end -->
+                                <div class="form-wrap">
+                                    <form class="form">
+
+                                        <div class="input-box">
+                                            <input type="text" id="name" class="input_fields" aria-describedby=""
+                                                placeholder="Phone number, username, or email" aria-required="true"
+                                                maxlength="30" autocapitalize="off" autocorrect="off" name="username"
+                                                value="" required>
+                                        </div>
+
+                                        <div class="input-box">
+                                            <input type="password" name="password" class="input_fields" id="password"
+                                                placeholder="Password" aria-describedby="" maxlength="30"
+                                                aria-required="true" autocapitalize="off" autocorrect="off" required>
+                                        </div>
+
+                                        <span class="button-box">
+                                            <button class="btn" type="submit" name="submit" onclick=handle(event)>Log in</button>
+                                        </span>
+                                        <div style="display: flex; flex-direction: row;">
+                                            <input type="checkbox" style="display: inline; height: 100%; width: 20%;">
+                                            <label for="" style="display: inline; width: 40%;">Remeber me</label>
+                                            <a class="forgot" href=""
+                                                style="display: inline; width: 30%; margin: 0px;">Forgot password?</a>
+                                        </div>
+                                    </form>
+                                </div> <!-- Form-wrap end -->
+                            </div> <!-- Login-box end -->
+
+                            <div class="login-box">
+                                <p class="text">Don't have an account?<a href="#">Sign up</a></p>
+                            </div> <!-- Signup-box end -->
+                        </div>
+                    </article>
+                </div>
+            </main>
+        </section>
+        <script src="./script.js"></script>
+</body>
+
+</html>
